@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECF37097EE03E3821877483 /* Pods_LTCycleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478225046EE38D1A9F1D085B /* Pods_LTCycleView.framework */; };
+		D9634EA01DD04AED007FC417 /* LTCellConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9634E9F1DD04AED007FC417 /* LTCellConfig.swift */; };
+		D9C035911DCF3D8F0091A4FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C035901DCF3D8F0091A4FE /* AppDelegate.swift */; };
+		D9C035931DCF3D8F0091A4FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C035921DCF3D8F0091A4FE /* ViewController.swift */; };
+		D9C035961DCF3D8F0091A4FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C035941DCF3D8F0091A4FE /* Main.storyboard */; };
+		D9C035981DCF3D8F0091A4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C035971DCF3D8F0091A4FE /* Assets.xcassets */; };
+		D9C0359B1DCF3D8F0091A4FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C035991DCF3D8F0091A4FE /* LaunchScreen.storyboard */; };
+		D9C035A61DCF3DE00091A4FE /* LTCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C035A51DCF3DE00091A4FE /* LTCycleView.swift */; };
+		D9C035A81DCF3E710091A4FE /* LTCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C035A71DCF3E710091A4FE /* LTCycleView.xib */; };
+		D9C035AB1DCF404D0091A4FE /* LTCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C035A91DCF404D0091A4FE /* LTCycleCell.swift */; };
+		D9C035AC1DCF404D0091A4FE /* LTCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C035AA1DCF404D0091A4FE /* LTCycleCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		387A0EBA942B2CBE29D61160 /* Pods-LTCycleView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTCycleView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTCycleView/Pods-LTCycleView.debug.xcconfig"; sourceTree = "<group>"; };
+		478225046EE38D1A9F1D085B /* Pods_LTCycleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTCycleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9634E9F1DD04AED007FC417 /* LTCellConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTCellConfig.swift; sourceTree = "<group>"; };
+		D9C0358D1DCF3D8F0091A4FE /* LTCycleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTCycleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C035901DCF3D8F0091A4FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9C035921DCF3D8F0091A4FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9C035951DCF3D8F0091A4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9C035971DCF3D8F0091A4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9C0359A1DCF3D8F0091A4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9C0359C1DCF3D8F0091A4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C035A51DCF3DE00091A4FE /* LTCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTCycleView.swift; sourceTree = "<group>"; };
+		D9C035A71DCF3E710091A4FE /* LTCycleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTCycleView.xib; sourceTree = "<group>"; };
+		D9C035A91DCF404D0091A4FE /* LTCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTCycleCell.swift; sourceTree = "<group>"; };
+		D9C035AA1DCF404D0091A4FE /* LTCycleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTCycleCell.xib; sourceTree = "<group>"; };
+		EA91C8754896FDD7E46EFC09 /* Pods-LTCycleView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTCycleView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTCycleView/Pods-LTCycleView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9C0358A1DCF3D8F0091A4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECF37097EE03E3821877483 /* Pods_LTCycleView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4C9D267BC127C312B242DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				478225046EE38D1A9F1D085B /* Pods_LTCycleView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A72DF6E3FE3DB64D178A526 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				387A0EBA942B2CBE29D61160 /* Pods-LTCycleView.debug.xcconfig */,
+				EA91C8754896FDD7E46EFC09 /* Pods-LTCycleView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9C035841DCF3D8F0091A4FE = {
+			isa = PBXGroup;
+			children = (
+				D9C0358F1DCF3D8F0091A4FE /* LTCycleView */,
+				D9C0358E1DCF3D8F0091A4FE /* Products */,
+				4A72DF6E3FE3DB64D178A526 /* Pods */,
+				0A4C9D267BC127C312B242DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9C0358E1DCF3D8F0091A4FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9C0358D1DCF3D8F0091A4FE /* LTCycleView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9C0358F1DCF3D8F0091A4FE /* LTCycleView */ = {
+			isa = PBXGroup;
+			children = (
+				D9C035A21DCF3D9D0091A4FE /* LTCycleView */,
+				D9C035901DCF3D8F0091A4FE /* AppDelegate.swift */,
+				D9C035921DCF3D8F0091A4FE /* ViewController.swift */,
+				D9C035941DCF3D8F0091A4FE /* Main.storyboard */,
+				D9C035971DCF3D8F0091A4FE /* Assets.xcassets */,
+				D9C035991DCF3D8F0091A4FE /* LaunchScreen.storyboard */,
+				D9C0359C1DCF3D8F0091A4FE /* Info.plist */,
+			);
+			path = LTCycleView;
+			sourceTree = "<group>";
+		};
+		D9C035A21DCF3D9D0091A4FE /* LTCycleView */ = {
+			isa = PBXGroup;
+			children = (
+				D9C035A51DCF3DE00091A4FE /* LTCycleView.swift */,
+				D9634E9F1DD04AED007FC417 /* LTCellConfig.swift */,
+				D9C035A71DCF3E710091A4FE /* LTCycleView.xib */,
+				D9C035A91DCF404D0091A4FE /* LTCycleCell.swift */,
+				D9C035AA1DCF404D0091A4FE /* LTCycleCell.xib */,
+			);
+			path = LTCycleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9C0358C1DCF3D8F0091A4FE /* LTCycleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C0359F1DCF3D8F0091A4FE /* Build configuration list for PBXNativeTarget "LTCycleView" */;
+			buildPhases = (
+				BBA516910543431E41899B4E /* [CP] Check Pods Manifest.lock */,
+				D9C035891DCF3D8F0091A4FE /* Sources */,
+				D9C0358A1DCF3D8F0091A4FE /* Frameworks */,
+				D9C0358B1DCF3D8F0091A4FE /* Resources */,
+				E35A529BA7F12D1C4077FDA6 /* [CP] Embed Pods Frameworks */,
+				46C1653C95E7F2D379DB3EB4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTCycleView;
+			productName = LTCycleView;
+			productReference = D9C0358D1DCF3D8F0091A4FE /* LTCycleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9C035851DCF3D8F0091A4FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = cmsg;
+				TargetAttributes = {
+					D9C0358C1DCF3D8F0091A4FE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G9S34UVGGQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D9C035881DCF3D8F0091A4FE /* Build configuration list for PBXProject "LTCycleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9C035841DCF3D8F0091A4FE;
+			productRefGroup = D9C0358E1DCF3D8F0091A4FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9C0358C1DCF3D8F0091A4FE /* LTCycleView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9C0358B1DCF3D8F0091A4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C0359B1DCF3D8F0091A4FE /* LaunchScreen.storyboard in Resources */,
+				D9C035981DCF3D8F0091A4FE /* Assets.xcassets in Resources */,
+				D9C035961DCF3D8F0091A4FE /* Main.storyboard in Resources */,
+				D9C035AC1DCF404D0091A4FE /* LTCycleCell.xib in Resources */,
+				D9C035A81DCF3E710091A4FE /* LTCycleView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46C1653C95E7F2D379DB3EB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTCycleView/Pods-LTCycleView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA516910543431E41899B4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E35A529BA7F12D1C4077FDA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTCycleView/Pods-LTCycleView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9C035891DCF3D8F0091A4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C035AB1DCF404D0091A4FE /* LTCycleCell.swift in Sources */,
+				D9C035931DCF3D8F0091A4FE /* ViewController.swift in Sources */,
+				D9634EA01DD04AED007FC417 /* LTCellConfig.swift in Sources */,
+				D9C035A61DCF3DE00091A4FE /* LTCycleView.swift in Sources */,
+				D9C035911DCF3D8F0091A4FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9C035941DCF3D8F0091A4FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9C035951DCF3D8F0091A4FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9C035991DCF3D8F0091A4FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9C0359A1DCF3D8F0091A4FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9C0359D1DCF3D8F0091A4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9C0359E1DCF3D8F0091A4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9C035A01DCF3D8F0091A4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 387A0EBA942B2CBE29D61160 /* Pods-LTCycleView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G9S34UVGGQ;
+				INFOPLIST_FILE = LTCycleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gzcmsg.LTCycleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D9C035A11DCF3D8F0091A4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA91C8754896FDD7E46EFC09 /* Pods-LTCycleView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G9S34UVGGQ;
+				INFOPLIST_FILE = LTCycleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gzcmsg.LTCycleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9C035881DCF3D8F0091A4FE /* Build configuration list for PBXProject "LTCycleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C0359D1DCF3D8F0091A4FE /* Debug */,
+				D9C0359E1DCF3D8F0091A4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C0359F1DCF3D8F0091A4FE /* Build configuration list for PBXNativeTarget "LTCycleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C035A01DCF3D8F0091A4FE /* Debug */,
+				D9C035A11DCF3D8F0091A4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9C035851DCF3D8F0091A4FE /* Project object */;
+}
