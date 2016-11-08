@@ -1,6 +1,9 @@
 # LTCycleView
-The swift version is infinite carousel using collectionView as carrier.
-swift版本的无限轮播图片，支持底部阴影，底部文字，pageControl位置(靠左，靠右，居中),底部文字对齐方式(靠左，靠右，居中),自动轮播时间等。
+
+## The swift version is infinite carousel using collectionView as carrier.
+## swift版本的无限轮播图片，支持底部阴影，底部文字，pageControl位置(靠左，靠右，居中),底部文字对齐方式(靠左，靠右，居中),自动轮播时间等。
+
+```
 
 var cycleView : LTCycleView = {
     //cell的相关配置
@@ -30,3 +33,4 @@ override func viewDidLoad() {
 
 }
 
+```
